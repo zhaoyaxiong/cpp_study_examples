@@ -3,5 +3,11 @@ project(cpp_study_examples C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(cpp_study_examples
-         data_strcture/list/list.h data_strcture/list/list.c data_strcture/list/test.c data_strcture/hashtable/hashtable.h data_strcture/hashtable/hashtable.c)
+#add_executable(cpp_study_examples
+#         data_structure/list/list.h data_strcture/list/list.c data_strcture/list/test.c data_strcture/hashtable/hashtable.h data_strcture/hashtable/hashtable.c test_case/pointer_test.c)
+
+#add_executable(cpp_study_examples test_case/pointer_test.c test_case/variable.c test_case/scope_test.c)
+#add_executable(cpp_study_examples test_case/variable.c test_case/scope_test.c test_case/variable.h test_case/const_test.c)
+#add_executable(cpp_study_examples  test_case/const_test.c test_case/enum_test.c)
+add_executable(cpp_study_examples  test_case/union_test.c)
+add_executable(cpp_study_examples  test_case/union_test.c)
