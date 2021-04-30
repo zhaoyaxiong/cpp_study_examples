@@ -35,9 +35,7 @@ namespace test_namespace {
 
         bool operator!=(const Staff &rhs) const;
 
-        friend ostream &operator<<(ostream &os, const Staff &staff);
-
-        const string &getName() const;
+                const string &getName() const;
 
         void setName(const string &name);
 
